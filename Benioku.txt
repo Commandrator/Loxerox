@@ -9,6 +9,7 @@ ancak bazı windowsun bazu sürümerinde hatalı çalışabilir.
   - PAKX29SJAP23I -> Bu kodu geliştirmek isteyen arkadaşlar için bırakıyorum. Kodu bilgisi eğer versa kodu inceleyip bu kodu denerse ona geliştirmesinde yararlı olabileceğini düşünüyorum. iki kez entere bas ve klasöre gir. açıan dosyalar veri korumak için tasarladığım dosyalara yönelticektir. tabikide o dosyalarda farklı tsarlandı. ancak kod bilginiz varsa gayet basit bir şekilde onu da çözeceksinizdir.
   - KN32CXJ49SIAE -> Kayıtlı parolaların tamamını siler. Verilerin silinmez. eğer parolanı unuttuysan bu kodu kullanarak parolanı silebilirsin. (kilitli bir klasörün paorlası silinmez.)
   - AIE93IDHA93J9 -> Şifrni değitirmene yardımcı olur. 
+  -info yazarak kod kaynakları hakkında bilgi alabilirsiniz.
 
 * Verdiğim kodlar Sadece ana menüde çalışır.
 ana menünün görünümü ;
