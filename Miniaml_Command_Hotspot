@@ -1,0 +1,20 @@
+@echo off &color 30 &cls
+title Command Hotspot
+if exist %tmt%\Hotspot_Key_info.dmc set "REsePev=type %tmt%\Hotspot_Key_info.dmc"
+if not exist %tmt%\Hotspot_Key_info.dmc set REsePev=echo.
+:men
+cls
+if exist %tmt%\Hotspot_Key_info.dmc Type %tmt%\Hotspot_Key_info.dmc"
+if not exist %tmt%\Hotspot_Key_info.dmc echo.
+echo __________________________________ &echo 1-) hotspot information. &echo. &echo 2-) hotspot SSID and Key Settings &echo. &echo 3-) hotspot stop &echo. &echo 4-) hotsopt start &echo __________________________________
+set /p xp01=Number:
+if %xp01%==1 cls &netsh wlan show hostednetwork &pause>nul &goto men
+if %xp01%==2 Echo startin adminastrator mode.&Echo plase tray select this box number. &net session >NUL 2>&1|| powershell Start-Process '%0' -Verb RunAs&& exit /b|| exit /b &cls &goto Kec
+if %xp01%==3 cls &echo stopping hotspot &netsh wlan stop hosted network &goto men
+if %xp01%==4 Echo startin adminastrator mode.&Echo plase tray select this box number. &net session >NUL 2>&1|| powershell Start-Process '%0' -Verb RunAs&& exit /b|| exit /b &cls &echo lunching hotspot &netsh wlan start hosted network &goto men
+goto men
+:Kec
+Set /p Qns=SSID:
+Set /p Sao=Key:
+netsh wlan set hostednetwork mode=allow ssid= Qns key= Sao"
+echo SSID: %Qns%, Key= %Sao% >%tmp%\Hotspot_Key_info.dmc &goto men
