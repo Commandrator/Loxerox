@@ -1,8 +1,8 @@
 - projenin amacı bir klasör oluşturup o klasörü bir parola veya isteğe bağlı olarak usb ve parolayla açmaktır.
 - Yazılımı çalıştırırçalıştırmaz açılan usb koruma eklemek istermisiniz yazısını ister k ye basıp kapata bilir istersenizde yazılımı tekrar kapatıp
 açarsanız size birdaha göstemiyecektir.
-- Yazılım windows dos ta çalışıp, windows xp, 7, 8, ve 10 u desteklemektedir.
-ancak bazı windowsun bazu sürümerinde hatalı çalışabilir.
+- Yazılım windows terminalinde çalışıp, windows xp, 7, 8, ve 10 u desteklemektedir.
+ancak bazı windowsun bazı sürümerinde hatalı çalışabilir.
 - Yazılı menüsüne dahil etmediğim komutlar sırasıyla;
   - OS8CHW3JSAODK -> Hesabı açmak için yeni bir kullanıcı adı daha eklemene yardımcı olur. Eski hesabın sininmez! eskisinin yanında başka bir hesabın daha  olur.
   - NPQ023IDAJDZL -> USB KORUMA KALDIRMA İSTEMCİSİ. Adından anlaşılacağı üzere eğer USB koruma ile korumalı bir klasör tasarladıysanız Korumayı kaldırır.
