@@ -1,5 +1,5 @@
 - projenin amacı bir klasör oluşturup o klasörü bir parola veya isteğe bağlı olarak usb ve parolayla açmaktır.
-- Yazılımı çalıştırırçalıştırmaz açılan usb koruma eklemek istermisiniz yazısını iste k ye basıp kapata bilir istersenizde yazılımı tekrar kapatıp
+- Yazılımı çalıştırırçalıştırmaz açılan usb koruma eklemek istermisiniz yazısını ister k ye basıp kapata bilir istersenizde yazılımı tekrar kapatıp
 açarsanız size birdaha göstemiyecektir.
 - Yazılım windows dos ta çalışıp, windows xp, 7, 8, ve 10 u desteklemektedir.
 ancak bazı windowsun bazu sürümerinde hatalı çalışabilir.
