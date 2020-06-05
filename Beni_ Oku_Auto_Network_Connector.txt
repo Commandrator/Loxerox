@@ -1,1 +1,2 @@
-
+Herhangi bir ağa bağlı olduğunuz halde yinesizi ağdan atıyorsa bu yazılım size yardımcı olacaktı.
+Programı açın, set yazan yerleri doldurun, ve kullanmaya hazırsınız.
