@@ -22,3 +22,4 @@ Bu program bilgisayarınıza kayıtlı olan ağın başka bir bilgisayara usb gi
 
 # Connector
 Bazı ağlarda dilgisyarınız sürekli olarak belirli veya belirsiz bir süre sonunda ağdan atılır. bu yazılım ping yolu ile otomatik olarak bağlanmana yardımcı olur.
+Auto Network Connector ile aynı mantığa sahiptir. sadece Auto Network Connector dan kullanımı daha kolaydır.
