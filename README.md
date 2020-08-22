@@ -6,7 +6,7 @@ Projelerimin bitirdikten sonra attığım bir kütüphanedir.
 basit bir sanal ağ oluşturmak için tasarladım.
 
 # Qalel
-Ağ içi mesajlaşma programı olaarak tasarladım. iki veya daha fazla bilgisayar birleşere tek bir txt metni altında yazışmaya yarar.
+Ağ içi mesajlaşma programı olarak tasarladım. iki veya daha fazla bilgisayar birleşere tek bir txt metni altında yazışmaya yarar.
 
 # Comlocker ( CommandLocker )
 Bu proje diğre kilitleme programlarından daa yararlanılarak geliştirdiğim bir programdır. Bir klasaör kilitleme [folder locker]  programıdır.
