@@ -39,6 +39,7 @@ GOTO QX0MN6J
         IF %QX0MN6J%==PAKX29SJAP23I                                      GOTO IUXJE82YS2
         IF %QX0MN6J%==KN32CXJ49SIAE                 			 GOTO KJS28XPN13
         IF %QX0MN6J%==AIE93IDHA93J9                      		 GOTO KEQ8123URS
+        IF %QX0MN6J%==DIX2UVDIERIF2                      		 GOTO XHX8DHSRVH
         GOTO QX0MN6J
             :OXUE8DUR
             CLS 
@@ -211,6 +212,13 @@ GOTO KDIRJ7WYYZ
 				ECHO set bh_1=KALDIRMAK iCin KAYITLI USB ETiKETi: >>Dosya\uuu\us\Dil.bat
 				ECHO set bh_2=Bu USB'de koruma KAYDI YOK. >>Dosya\uuu\us\Dil.bat
 				ECHO set bh_3=Bu etiket gecersiz. >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_0=Icerik Sifirlayici >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_1=Sifirlamak icin onay kodu: >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_2=USB KORUMA KALDIRILDI. >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_3=TANIMLAYICI DOSYALAR KALDIRILDI >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_4=Kapanmaya :3 >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_5=Kapanmaya :2 >>Dosya\uuu\us\Dil.bat 
+				ECHO set td_6=Kapanmaya :1 >>Dosya\uuu\us\Dil.bat 
 				ATTRIB +h +s Dosya\uuu\us\Dil.bat
 				IF EXIST Dosya\uuu\us\PIF.mox GOTO QX0MN6J
 				ECHO 000-000-000-000-%date%-000-000-%time%-000-000>Dosya\uuu\us\PIF.mox
@@ -408,15 +416,22 @@ GOTO KSURHC63H
 		PING LOCALHOS -N 2 >nul &GOTO JJCUD7DGX6
                 IF %USHE37UD%==K RD /S /Q %nxs%:\USCD
                 GOTO QX0MN6J
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+			:XHX8DHSRVH
+			TITLE %td_0%
+			CLS 
+			SET edc=%RANDOM% 
+			ECHO %ew_7% %edc% 
+			ECHO.
+			SET /p msd=%td_1%
+			IF %msd%==0 GOTO QX0MN6J
+                	IF %msd%==%edc% RD /S /Q %nxs%:\USCD
+			Ping localhost -n 1 >nul &ECHO %DATE% %TIME% --- %td_2%
+			IF %msd%==%edc% RD /S /Q %cd%\Dosya\uuu
+			IF %msd%==%edc% Ping localhost -n 1 >nul &ECHO %DATE% %TIME% --- %td_3%
+			IF %msd%==%edc% Ping localhost -n 1 >nul &CLS &ECHO .             %td_4%
+			IF %msd%==%edc% Ping localhost -n 1 >nul &CLS &ECHO ..            %td_5%
+			IF %msd%==%edc% Ping localhost -n 1 >nul &CLS &ECHO ...           %td_6%
+			IF %msd%==%edc% Ping localhost -n 2 >nul &CLS &ECHO .
+			IF %msd%==%edc% Ping localhost -n 2 >nul &CLS &ECHO ..
+			IF %msd%==%edc% Ping localhost -n 2 >nul &CLS &ECHO ... &EXIT
+			GOTO XHX8DHSRVH
