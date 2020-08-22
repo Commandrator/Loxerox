@@ -396,7 +396,7 @@ GOTO KSURHC63H
 		CLS 
 		SET edc=%RANDOM% 
 		ECHO %ew_7% %edc% 
-		ECHO 
+		ECHO.
 		SET /p msd=%zn_9%
                 IF %msd%==0 GOTO QX0MN6J
                 IF %msd%==%edc% SET USHE37UD=K
