@@ -4,6 +4,12 @@ Projelerimin bitirdikten sonra attığım bir kütüphanedir.
 
 # Minimal Command Hotspot
 basit bir sanal ağ oluşturmak için tasarladım.
+  "Denetim Masası\Ağ ve Internet\Ağ Bağlantıları" bulunan yerden internete bağlı olduğun bağdaştırıcıyı seç.
+  Sağ tuş yapıp özellikleri seç.
+  paylaşım a gel.
+  Diğer ağ kullanıcıların , bu bilgisayarın internet bağlantısı yoluyla bağlanı aktif et.
+  paylaşacağın bağdaştırıcıyı seç ve tamam de.
+
 
 # Qalel
 Ağ içi mesajlaşma programı olarak tasarladım. iki veya daha fazla bilgisayar birleşere tek bir txt metni altında yazışmaya yarar.
