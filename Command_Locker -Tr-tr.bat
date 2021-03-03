@@ -42,6 +42,7 @@ GOTO QX0MN6J
         IF %QX0MN6J%==DIX2UVDIERIF2                      		 GOTO XHX8DHSRVH
         GOTO QX0MN6J
             :OXUE8DUR
+	    SET SAATACEWY3P=0
             CLS 
 	    SET Q01=A
 	    SET MWQ273FXCX=USCD\COREX\NPQ-*-*-*-*.RESCqSID
@@ -92,6 +93,7 @@ GOTO QX0MN6J
 		ECHO. 
 		SET /p un=KULLANICI ADI : 
                 SET /p pw=KULLANICI PAROLASI : 
+		IF NOT EXIST "COSE.MICRO.LOXSERO.{00021401-0000-0000-C000-000000000046}\uuu\us\%un%.user" SET SAATACEWY3P=1
                 IF NOT EXIST "COSE.MICRO.LOXSERO.{00021401-0000-0000-C000-000000000046}\uuu\us\%un%.user" GOTO OXUE8DUR_NSZM92KJ
                 IF NOT EXIST "COSE.MICRO.LOXSERO.{00021401-0000-0000-C000-000000000046}\uuu\us\*-*-*-*-*-*-*-*-%pw%-*-*-%un%-*-*-*-*.ops" GOTO OXUE8DUR_NSZM92KJ
                 GOTO KN12HQJ
@@ -108,6 +110,7 @@ GOTO QX0MN6J
 			ECHO            %ew_4%
 			ECHO        %ew_5%
 			PING LOCALHOS -N 3 >nul 
+			IF %SAATACEWY3P%==1 GOTO SAXTASEWE33
 			GOTO OXUE8DUR
                             :KO46CYSRHH
                             exit
