@@ -15,7 +15,7 @@ basit bir sanal ağ oluşturmak için tasarladım.
 Ağ içi mesajlaşma programı olarak tasarladım. iki veya daha fazla bilgisayar birleşere tek bir txt metni altında yazışmaya yarar.
 
 # Comlocker ( CommandLocker )
-Bu proje diğre kilitleme programlarından daa yararlanılarak geliştirdiğim bir programdır. Bir klasaör kilitleme [folder locker]  programıdır.
+Bu proje diğre kilitleme programlarından da yararlanılarak geliştirdiğim bir programdır. Bir klasaör kilitleme [folder locker]  programıdır.
 
 # Auto Network Connector
 Bilgisayarınız eğer bağlı olduğu halde sürekli bağlı olduğu ağdan atılıyor ise otomatik olarak bağlanmasını sağlar.
