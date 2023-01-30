@@ -24,5 +24,5 @@ if %ONAY%==2 GOTO Zet
 Goto Noxe
 
 
-SET Ping_Number=  /Ping Suncuya  "ms" atılıack ping süresi
-%TMP%\Connector\Old_inf.bat / Son bağlanılan Adres ve Ağ bilgisini verir.
+SET Ping_Number=, Ping Suncuya  "ms" atılıack ping süresi
+%TMP%\Connector\Old_inf.bat, Son bağlanılan Adres ve Ağ bilgisini verir.
