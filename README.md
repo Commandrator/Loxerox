@@ -1,31 +1,17 @@
 # LOXEROS
-Tek bir proje değildir!
-Projelerimin bitirdikten sonra attığım bir kütüphanedir.
+Kütüphane içinde yazan Script/program hobi amaçlı orta okul dönemimde video ve forumlar'ı kullanarak geliştirdim.
+|Proje | Detay|
+|---|---|
+|Minimal Command Hotspot|`Netsh` kullanarak sanal ağ oluşturmak için tasarlandı.|
+|Qalel|Bilgisayarın metin dosyası üzerinde çalışacak şekilde tasarlandı.|
+|Comlocker|`attrib` ve windows üzerineki bazı özel parametreleri kullanarak oluşturulan gizileme 2016-2017 yıllarında sıklıkla kullanılan bir script'in geliştirilmiş halidir. Diğer scriptten ayıran şifreleme için yazdığım kısmın klasörün içinde saklanmış olmasından kaynaklanmaktadır.|
+|Auto Network Connector/Connector|Belirli aralıklarla belirlenen siteye ping atılıp sonuç gelmemesi halinde ağ bağlantısını kesip tekrar bağnacak şekilde tasarladım ancak bunu sadece paketler arası çakışmaya sebep olan bir cihazınız varsa işe yarar. Modem yapılandırmanızı kontrol edebilir ya da yeni bir cihaz olmayı deneyin.|
+|Connect_File_Downloader|Adobe connect üzerinde yapılan kayıtlı canlı yayımları indirmenizi kolaylaştırı. input kısmına wideo url'sini girin. url'yi chrom kullanarak açıyor, çalışması için chrome'u kurun.|
+|Ticket|`netsh` kullanarak kayıtlı olan ağın başka bir bilgisayara usb gibi bir yolla aktaması için tasarladım.|
+|Mors|Koşullar kullanarak mors harflerini decode etmesi için tasarlamıştım.|
 
-# Minimal Command Hotspot
-basit bir sanal ağ oluşturmak için tasarladım.
-  "Denetim Masası\Ağ ve Internet\Ağ Bağlantıları" bulunan yerden internete bağlı olduğun bağdaştırıcıyı seç.
-  Sağ tuş yapıp özellikleri seç.
-  paylaşım a gel.
-  Diğer ağ kullanıcıların , bu bilgisayarın internet bağlantısı yoluyla bağlanı aktif et.
-  paylaşacağın bağdaştırıcıyı seç ve tamam de.
-
-
-# Qalel
-Ağ içi mesajlaşma programı olarak tasarladım. iki veya daha fazla bilgisayar birleşere tek bir txt metni altında yazışmaya yarar.
-
-# Comlocker ( CommandLocker )
-Bu proje diğre kilitleme programlarından da yararlanılarak geliştirdiğim bir programdır. Bir klasaör kilitleme [folder locker]  programıdır.
-
-# Auto Network Connector
-Bilgisayarınız eğer bağlı olduğu halde sürekli bağlı olduğu ağdan atılıyor ise otomatik olarak bağlanmasını sağlar.
-
-# Connect_File_ Downloader
-Adobe connectte video indirmene yardımcı olur. not düzgün çalışması için google chrome olması gereklidir!
-
-# Ticket
-Bu program bilgisayarınıza kayıtlı olan ağın başka bir bilgisayara usb gibi bir yolla aktamana yarar. yani progarm uzun wifi şifrelerini taşınabilir hale getirir.
-
-# Connector
-Bazı ağlarda dilgisyarınız sürekli olarak belirli veya belirsiz bir süre sonunda ağdan atılır. bu yazılım ping yolu ile otomatik olarak bağlanmana yardımcı olur.
-Auto Network Connector ile aynı mantığa sahiptir. sadece Auto Network Connector dan kullanımı daha kolaydır.
+## Minimal Command Hotspot | Yapılandırma
+  * ``ncpa.cpl``'i çalıştırın.
+  * Paylaşım için kullanacağınız bağdaştırıcının özellikler kısmından paylaşım bölümüne girin.
+  * _'Diğer ağ kullanıcıların bu bilgisayarın internet bağlantısı yoluyla bağlan'_ ile bağdaştırıcının ağ paylaşımını etkinleştir.
+  * Alt kısımdan sanal ağ için açılan bağdaştırıcıyı seçip kaydedin.
